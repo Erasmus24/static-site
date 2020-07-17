@@ -1,0 +1,18 @@
+
+
+body{
+    margin: 0;
+    margin-top: 0;
+}
+
+nav{
+    background: #d50000;
+    height: 5em;
+    margin-top: 0;
+}
+
+.head-img{
+    max-height: 550px;
+    min-width: 1360px;
+}
+
