@@ -8,8 +8,9 @@ body{
 
 nav{
     background: #d50000;
-    height: 5em;
+    height: 2em;
     margin-top: 0;
+    padding: 1em;
 }
 
 .head-img{
