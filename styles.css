@@ -35,8 +35,9 @@ body{
 }
 
 .head-img{
-    max-height: 550px;
-    min-width: 1360px;
+    max-height: 450px;
+    min-width: 100%;
+    opacity: .8;
 }
 
 .contact-container{
