@@ -34,6 +34,10 @@ body{
     color: var(--clr-dark);
 }
 
+.home-text{
+    padding: 3em;
+}
+
 .head-img{
     max-height: 450px;
     min-width: 100%;
