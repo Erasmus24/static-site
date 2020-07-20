@@ -61,7 +61,8 @@ body{
 .contact_two-form {
     max-width: 550px; 
     margin: 0 auto;  /*this places the content in the center horizontally*/
-    background: rgba(0,0,0,0.5);
+    background: rgba(33,33,33,0.9);
+    /* background-color: #d50000; */
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -81,6 +82,7 @@ body{
 
 .input-fields .input,
 .msg textarea {
+    /*this part creates a text input that has no border*/
     margin: 10px 0;
     background: transparent;
     border: 0;
@@ -93,4 +95,26 @@ body{
 .msg textarea {
     height: 212px;
 }
+
+::-webkit-input-placeholder {
+    color: #d50000;
+}
+
+::-moz-input-placeholder {
+    color: #d50000;
+}
+
+::-ms-input-placeholder {
+    color: #d50000;
+}
+
+.btn {
+    background: #d50000;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
 
