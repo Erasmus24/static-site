@@ -86,9 +86,9 @@ body{
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid #d50000;
+    border-bottom: 2px solid #eeeeee;
     padding: 10px;
-    color: #d50000;
+    color: #eeeeee;
     width: 100%;
 }
 
@@ -97,15 +97,15 @@ body{
 }
 
 ::-webkit-input-placeholder {
-    color: #d50000;
+    color: #eeeeee;
 }
 
 ::-moz-input-placeholder {
-    color: #d50000;
+    color: #eeeeee;
 }
 
 ::-ms-input-placeholder {
-    color: #d50000;
+    color: #eeeeee;
 }
 
 .btn {
@@ -117,4 +117,15 @@ body{
     cursor: pointer;
 }
 
-
+@media screen and (max-width: 600px) {
+    .contact_two-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
+}
