@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --clr-light: #eeeeee;
+    --clr-dark:#d50000;
+    --clr-accent: #ff8a80;
+}
+
+body{
+    margin: 0;
+    background: url(./Visuals/brickWall.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar{  
+    display: flex;
+    background: var(--clr-dark);
+    position: sticky;
+    top: 0;
+}
+
+.navbar a{
+    color: var(--clr-light);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+.home-text{
+    padding: 3em;
+}
+
+.head-img{
+    max-height: 450px;
+    min-width: 100%;
+    opacity: .8;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact_two-form {
+    max-width: 550px; 
+    margin: 0 auto;  /*this places the content in the center horizontally*/
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+}
