@@ -61,7 +61,14 @@ body{
 .contact_two-form {
     max-width: 550px; 
     margin: 0 auto;  /*this places the content in the center horizontally*/
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.5);
     padding: 30px;
     border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
 }
