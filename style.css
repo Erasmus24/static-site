@@ -71,4 +71,26 @@ body{
 .input-fields {
     display: flex;
     flex-direction: column;
+    margin-right: 4%;
 }
+
+.input-fields,
+.msg {
+    width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #d50000;
+    padding: 10px;
+    color: #d50000;
+    width: 100%;
+}
+
+.msg textarea {
+    height: 212px;
+}
+
