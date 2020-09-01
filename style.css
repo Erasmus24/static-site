@@ -11,13 +11,13 @@
 
 :root{
     --clr-light: #eeeeee;
-    --clr-dark:#d50000;
-    --clr-accent: #ff8a80;
+    --clr-dark:#607d8b;
+    --clr-accent: #37474f;
 }
 
 body{
     margin: 0;
-    background: url(./Visuals/brickWall.jpg) no-repeat top center;
+    background: url(./Visuals/whiteBurger.jpg) no-repeat top center;
     background-size: cover;
     height: 100vh;
     
@@ -119,7 +119,7 @@ body{
 }
 
 .btn {
-    background: #d50000;
+    background: #37474f;
     text-align: center;
     padding: 15px;
     border-radius: 5px;
